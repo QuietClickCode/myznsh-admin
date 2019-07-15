@@ -1,7 +1,6 @@
 package com.zjj.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * @program: znsh
@@ -13,17 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class IndexController {
 
 
-    @RequestMapping("/index")
-    public String login() {
-        return "index";
-    }
 
-    @RequestMapping("/mindex")
-    /*public String mlogin() {
-        return "mindex_";
-    }*/
-    public String mlogin() {
-        return "index";
-    }
 
 }
